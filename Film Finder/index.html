@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./movies.js"></script>
+    <script defer src="./script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Minke's Film Finder</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Minke's Film Finder</h1>
+      <div id="search">
+        <input type="search" placeholder="search" id="searchBar" />
+      </div>
+    </header>
+
+    <nav>
+      <div>
+        <input type="radio" name="filter" id="new" value="new" />
+        <label for="new">Latest movies (2014 or newer)</label>
+      </div>
+      <div>
+        <input type="radio" name="filter" id="avengers" value="avengers" />
+        <label for="avengers">Avengers movies</label>
+      </div>
+      <div>
+        <input type="radio" name="filter" id="xmen" value="xmen" />
+        <label for="xmen">X-Men movies</label>
+      </div>
+      <div>
+        <input type="radio" name="filter" id="princess" value="princess" />
+        <label for="princess">Princess movies</label>
+      </div>
+      <div>
+        <input type="radio" name="filter" id="batman" value="batman" />
+        <label for="batman">Batman movies</label>
+      </div>
+      <div>
+        <input type="radio" name="filter" id="all" value="all" />
+        <label for="all">All movies</label>
+      </div>
+    </nav>
+
+    <main>
+      <ul id="allmovies"></ul>
+    </main>
+    <footer>Copyright by Minke Korving</footer>
+  </body>
+</html>

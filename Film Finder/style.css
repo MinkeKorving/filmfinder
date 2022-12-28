@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  margin: 1em;
+  color: white;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+  background-color: rgb(91, 91, 207);
+  padding: 1.5em;
+}
+
+#search > input {
+  border-color: rgb(91, 91, 207);
+  padding: 0.5rem;
+  margin: 1em;
+}
+nav {
+  display: flex;
+
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 175px;
+  padding: 3px;
+}
+
+.allmovies {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+  width: 90%;
+}
+
+footer {
+  text-align: center;
+}
